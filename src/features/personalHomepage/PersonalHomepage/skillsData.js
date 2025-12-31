@@ -1,0 +1,47 @@
+export const skills = {
+  technologies: [
+    "API implementation",
+    "Basic animations & transitions",
+    "CSS BEM convention",
+    "CSS Flexbox",
+    "CSS Grid",
+    "Error handling",
+    "Git",
+    "GitHub Pull Requests & Review",
+    "HTML (Semantic & Accessible)",
+    "Immutability",
+    "JavaScript (ES6+)",
+    "Markdown",
+    "NPM",
+    "Promises, Async/Await",
+    "React",
+    "React Hooks",
+    "React Router",
+    "Redux Saga",
+    "Redux Toolkit",
+    "Responsiveness in Web Design",
+  ],
+
+  tools: ["Figma", "Trello"],
+
+  softSkills: [
+    "Communication",
+    "Creative architecture of websites",
+    "Problem solving",
+    "Scrum",
+    "Teamwork",
+    "Time management",
+  ],
+};
+
+export const nextSkills = [
+  "Cypress",
+  "JS classes",
+  "Manual testing",
+  "Next.js",
+  "Node.js",
+  "React Context",
+  "REST API design",
+  "TypeScript",
+  "Unit testing",
+];
