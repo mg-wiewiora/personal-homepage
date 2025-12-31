@@ -18,7 +18,7 @@ Welcome to my personal homepage repository! This project serves as my digital bu
 - **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
 - **Interactive UI:** Smooth animations and user-friendly interactions.
 - **Portfolio Section:** Highlights projects, skills, and accomplishments.
-- **Contact Form:** Easy way to get in touch via email or social links.
+- **Contact Links:** Easy way to get in touch via email or social links.
 - **Lightweight & Fast:** Minimal dependencies for quick loading.
 
 ---
