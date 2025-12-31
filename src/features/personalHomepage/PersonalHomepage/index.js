@@ -1,6 +1,6 @@
 import { MainInfo } from "./MainInfo";
 import { Skillset } from "./Skillset";
-import { Container, Icon } from "./styled";
+import { Container } from "./styled";
 import { skills, nextSkills } from "./skillsData";
 import { Portfolio } from "./Portfolio";
 import { Footer } from "./Footer";

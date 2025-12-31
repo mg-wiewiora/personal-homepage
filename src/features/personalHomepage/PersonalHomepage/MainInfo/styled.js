@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { ButtonLink } from "../ButtonLink";
+import { ButtonLink } from "../ButtonLink/styled";
 import { ReactComponent as MailIcon } from "./mail.svg";
 
 export const Wrapper = styled.header`
