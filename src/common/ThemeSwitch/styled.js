@@ -43,8 +43,8 @@ export const IconWrapper = styled.span`
   border-radius: 50%;
   transition: transform 0.3s;
 
-  ${({ moveToRight }) =>
-    moveToRight &&
+  ${({ $moveToRight }) =>
+    $moveToRight &&
     css`
       transform: translateX(20px);
     `}

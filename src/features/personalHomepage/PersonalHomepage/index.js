@@ -1,5 +1,5 @@
 import { MainInfo } from "./MainInfo";
-import { Skillset } from "./Skillset";
+import { Skills } from "./Skills";
 import { Container } from "./styled";
 import { skills, nextSkills } from "./skillsData";
 import { Portfolio } from "./Portfolio";
@@ -12,27 +12,13 @@ export const PersonalHomepage = () => (
     <MainInfo />
 
     <main>
-      <Skillset
-        title={(
-          <>
-            My skillset includes 🛠
-          </>
-          )}
-        skills={skills}
-      />
+      <Skills title={<>My skillset includes 🛠</>} skills={skills} />
 
-      <Skillset
-        title={(
-          <>
-            What I want to learn next 🚀
-          </>
-        )}
-        skills={nextSkills}
-      />
+      <Skills title={<>What I want to learn next 🚀</>} skills={nextSkills} />
 
       <Portfolio />
     </main>
-    
+
     <Footer />
   </Container>
 );
