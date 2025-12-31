@@ -1,0 +1,1 @@
+export const email = "mg.wiewiora@gmail.com";
