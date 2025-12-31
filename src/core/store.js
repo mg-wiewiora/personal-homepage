@@ -1,23 +1,20 @@
 import { configureStore } from "@reduxjs/toolkit";
-import githubReducer from "./githubSlice";
-import themeReducer from "./common/theme/themeSlice";
 import createSagaMiddleware from "redux-saga";
-import rootSaga from "./rootSaga";
+import personalHomepageReducer from "../features/personalHomepage/personalHomepageSlice";
+import themeReducer from "../common/themeSlice";
+import saga from "./saga";
 
 const sagaMiddleware = createSagaMiddleware();
 
 const store = configureStore({
   reducer: {
-    github: githubReducer,
+    personalHomepage: personalHomepageReducer,
     theme: themeReducer,
   },
-  middleware: [sagaMiddleware],
+  middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware().concat(sagaMiddleware),
 });
 
-sagaMiddleware.run(rootSaga);
-
-store.subscribe(() => {
-  localStorage.setItem("isDarkTheme", store.getState().theme.isDarkTheme);
-});
+sagaMiddleware.run(saga);
 
 export default store;
