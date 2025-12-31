@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Content } from "./Content";
 import { StyledGithubIcon, Header, Section, MyRecentProjects } from "./styled";
-import { SubHeader } from "../SubHeader";
+import { SubHeader } from "../SubHeader/styled";
 import { githubUsername } from "./githubUsername";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -28,11 +28,7 @@ export const Portfolio = () => {
         <MyRecentProjects>My recent project</MyRecentProjects>
       </Header>
 
-      <Content 
-      status={repositoriesStatus} 
-      repositories={repositories} 
-      />
-      
+      <Content status={repositoriesStatus} repositories={repositories} />
     </Section>
   );
 };
