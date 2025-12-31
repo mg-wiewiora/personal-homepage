@@ -15,9 +15,9 @@ export const MainInfo = () => (
     <Avatar src={malgorzataWiewioraProfile} alt="Malgorzata Wiewiora" />
     <div>
       <ThisIs>This is</ThisIs>
-      <Name>Malgorzata Wiewiora</Name>
+      <Name>Małgorzata Wiewióra</Name>
       <Summary>
-        🧠 💡 👩‍💻 I’m a creative and passionate Frontend Developer specializing in React,
+        💡👩💻 I’m a creative and passionate Frontend Developer specializing in React,
         currently seeking my next professional opportunities.
       </Summary>
       <StyledButtonLink href={`mailto:${email}`} title={email}>
