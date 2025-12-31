@@ -1,33 +1,43 @@
 # Personal Homepage
 
-<img width="200" alt="Personal Homepage icon" src="" />
+<img width="200" alt="Personal Homepage icon" src="https://github.com/user-attachments/assets/4c05d1e0-3cd3-436f-ae08-5b8ef8e35193" />
+
+Welcome to my personal homepage repository! This project serves as my digital business card, showcasing my portfolio, skills, and contact information in a clean, interactive web interface.
 
 ---
 
 ## Demo
 
 **Check the website:**  
-https://mg-wiewiora.github.io/personal-homepage/
+[https://mg-wiewiora.github.io/personal-homepage/](https://mg-wiewiora.github.io/personal-homepage/)
 
 ---
 
 ## Features
 
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Interactive UI:** Smooth animations and user-friendly interactions.
+- **Portfolio Section:** Highlights projects, skills, and accomplishments.
+- **Contact Form:** Easy way to get in touch via email or social links.
+- **Lightweight & Fast:** Minimal dependencies for quick loading.
+
 ---
 
 ## Technologies Used
 
----
-
-## Key Learning Points
+- **React** – For building the interactive user interface.
+- **HTML5 & CSS3** – Semantic markup and styling.
+- **JavaScript (ES6+)** – Dynamic behavior and interactivity.
+- **Create React App** – Project setup and build tooling.
+- **Responsive Design Principles** – Ensuring accessibility across devices.
 
 ---
 
 ## Preview
 
-![gif - how to interact with the page]()
+![gif - how to interact with the page](https://github.com/user-attachments/assets/3f69208e-4e0a-4753-b817-74c93743502f)
 
-![gif - responsiveness of the page]()
+![gif - responsiveness of the page](https://github.com/user-attachments/assets/cf28f474-8ba8-4617-bf58-7e8d44142baa)
 
 ---
 
