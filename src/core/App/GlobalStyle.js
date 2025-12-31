@@ -11,8 +11,17 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: "Inter", sans-serif;
-    line-height: 1.5;
-    margin: 0 auto;
-    background-color: ${({ theme }) => theme.color.white};
+    color: ${({ theme }) => theme.colors.site.text};
+    background: ${({ theme }) => theme.colors.site.background};
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    overflow-y: scroll;
+    word-break: break-word;
+    padding-bottom: 108px;
+    transition: background 0.4s;
+
+    @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        padding-bottom: 32px;
+    }
   }
 `;
