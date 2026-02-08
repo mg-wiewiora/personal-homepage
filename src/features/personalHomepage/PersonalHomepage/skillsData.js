@@ -37,6 +37,6 @@ export const nextSkills = [
   "Node.js",
   "React Context",
   "REST API design",
-  "TypeScript",
+  "TypeScript (in progress)",
   "Python",
 ];
