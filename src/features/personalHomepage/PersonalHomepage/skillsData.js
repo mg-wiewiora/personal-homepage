@@ -32,11 +32,11 @@ export const skills = [
 export const nextSkills = [
   "Cypress",
   "JS classes",
-  "Manual testing",
+  "Manual / unit testing",
   "Next.js",
   "Node.js",
   "React Context",
   "REST API design",
   "TypeScript",
-  "Unit testing",
+  "Python",
 ];
