@@ -19,6 +19,7 @@ export const skills = [
   "Redux Saga",
   "Redux Toolkit",
   "Responsiveness in Web Design",
+  "TypeScript (learning)",
   "Figma",
   "Trello",
   "Communication",
@@ -37,6 +38,5 @@ export const nextSkills = [
   "Node.js",
   "React Context",
   "REST API design",
-  "TypeScript (in progress)",
   "Python",
 ];
